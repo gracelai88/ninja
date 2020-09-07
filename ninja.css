@@ -1,0 +1,79 @@
+body {
+    background-color: #ee7354;
+    font-family: "raleway", sans-serif;
+    margin:0;
+}
+
+header {
+    background-image:url(https://i.imgur.com/qhLToSP.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius:8px;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    border: 2px solid black;
+}
+
+h1 {
+    color:#ee7354;
+}
+
+.descriptions a {
+    color: #ee7354;
+}
+
+section {
+    background-color: white;
+    background-position: center;
+    border-radius:8px;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+h2 {
+    color: #ee7354;
+    text-decoration: underline;
+}
+
+#hover-image p {
+    color: #ee7354;
+    font-weight: 600;
+    text-align: center;
+}
+
+#hover-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#employment-table, th, td {
+    border: 1px solid #ee7354;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+#employment-table {
+    width: 80%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media
+only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
